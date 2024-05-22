@@ -28,7 +28,7 @@ pip install pandas
 To run the script, use the following command:
 
 ```bash
-python script.py <file_or_directory_path> [group_id]
+python main.py <file_or_directory_path> [group_id]
 ```
 
 - `<file_or_directory_path>`: Path to the CSV file or directory containing CSV files.
@@ -39,19 +39,19 @@ python script.py <file_or_directory_path> [group_id]
 Process a single CSV file:
 
 ```bash
-python script.py data.csv
+python main.py data.csv
 ```
 
 Process all CSV files in a directory:
 
 ```bash
-python script.py /path/to/directory
+python main.py /path/to/directory
 ```
 
 Process a single CSV file with a specified group ID:
 
 ```bash
-python script.py data.csv 123
+python main.py data.csv 123
 ```
 
 ## Functions
